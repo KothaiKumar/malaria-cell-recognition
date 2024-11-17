@@ -87,7 +87,7 @@ test_image_gen = image_gen.flow_from_directory(test_path,target_size=image_shape
 results = model.fit(train_image_gen,epochs=4,validation_data=test_image_gen)
 model.save('cell_model.h5')
 losses = pd.DataFrame(model.history.history)
-print("ARUN KUMAR SUKDEV CHAVAN")
+print("Kothai K")
 losses[['loss','val_loss']].plot()
 
 import random
